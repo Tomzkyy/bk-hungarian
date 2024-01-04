@@ -104,6 +104,8 @@ st.set_page_config(
 )
 
 st.title("Hungarian Heart Disease")
+# Model accuracy
+st.write(f"Model accuracy: **{accuracy}%**")
 
 tab1, tab2 = st.tabs(["Single-predict", "Multi-predict"])
 
